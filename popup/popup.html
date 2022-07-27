@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Kawaii Pomodoro Timer | Study With Me</title>
+    <meta name="description" content="An aesthetic Pomodoro timer to keep you focused and motivated. Customize your study timer and choose from a variety of aesthetic themes.">
+    <link rel="stylesheet" href="/popup/popup.css">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+  </head>
+  <body class="bg-img">
+    <div class="container mt-2" style="height: 310px">
+      <div class="row">
+        <div class="col-6 text-start">
+          <p>
+            <button id="js-pomodoro" class="btn btn-sm btn-danger fw-bold">
+              <i class="bi bi-alarm"></i>
+            </button>
+          </p>
+          <p>
+            <button id="js-short-break" class="btn btn-sm btn-danger fw-bold">
+              <i class="bi bi-file-arrow-down-fill"></i>
+            </button>
+          </p>
+          <p>
+            <button id="js-long-break" class="btn btn-sm btn-danger fw-bold">
+              <i class="bi bi-file-arrow-up-fill"></i>
+            </button>
+          </p>
+        </div>
+        
+        <div class="col-6 text-end">
+          <p>
+            <button id="options-btn" type="button" class="btn btn-sm btn-danger">
+              <a class="text-light" href="chrome-extension://deplhioenpoeepepklcbcoankdkoengd/options/options.html">
+                <i class="bi bi-gear-wide-connected"></i>
+              </a>
+            </button>
+          </p>
+          <p>
+            <button id="pomo-sound" data-mode="pomodoro" class="d-none btn btn-sm btn-danger fw-bold">
+              <i class="bi bi-volume-up-fill"></i>
+              <audio class="sound" id="sound-pomo" src="" data-sound="pomodoro"></audio>
+            </button>
+          </p>
+          <p>
+            <button id="short-sound" data-mode="shortBreak" class="d-none btn btn-sm btn-danger fw-bold">
+              <i class="bi bi-volume-up-fill"></i>
+              <audio class="sound" id="sound-short" src="" data-sound="shortBreak"></audio>
+            </button>
+          </p>
+          <p>
+            <button id="long-sound" data-mode="longBreak" class="d-none btn btn-sm btn-danger fw-bold">
+              <i class="bi bi-volume-up-fill"></i>
+              <audio class="sound" id="sound-long" src="" data-sound="longBreak"></audio>
+            </button>
+          </p>
+        </div>
+        
+      </div>
+
+    </div>
+
+    <main class="container text-center">
+      <button id="start-pomo-btn" type="button" class="btn btn-sm btn-danger fw-bold">
+        <i class="bi bi-pause-btn-fill"></i>
+      </button>
+      <button id="start-short-btn" type="button" class="d-none btn btn-sm btn-danger fw-bold">
+        <i class="bi bi-pause-btn-fill"></i>
+      </button>
+      <button id="start-long-btn" type="button" class="d-none btn btn-sm btn-danger fw-bold">
+        <i class="bi bi-pause-btn-fill"></i>
+      </button>
+
+      <h1 id="time-pomo" class="btn btn btn-danger fs-1 fw-bold text-center"></h1>
+      <h1 id="time-short" class="d-none btn btn btn-danger fs-1 fw-bold text-center">/h1>
+      <h1 id="time-long" class="d-none btn btn btn-danger fs-1 fw-bold text-center"></h1>
+
+      <button id="reset-pomo-btn" type="button" class="btn btn-sm btn-danger">
+        <i class="bi bi-rewind-circle-fill"></i>
+      </button>
+      <button id="reset-short-btn" type="button" class="d-none btn btn-sm btn-danger">
+        <i class="bi bi-rewind-circle-fill"></i>
+      </button>
+      <button id="reset-long-btn" type="button" class="d-none btn btn-sm btn-danger">
+        <i class="bi bi-rewind-circle-fill"></i>
+      </button>
+    </main>
+  </body>
+  <script src="popup.js"></script>
+</html>
+

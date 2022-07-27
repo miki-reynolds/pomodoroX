@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kawaii Pomodoro Options</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+</head>
+<body class="bg-dark">
+    <div class="container bg-dark text-light text-center"
+        style="width: 370px; height: 370px;">
+        <div class="row justify-content-center">
+            <div class="col">
+                <!-- <h1 class="fw-bold fs-1 mt-3 mb-5">Settings</h1> -->
+                <form class="mt-3">
+                    <div class="form-group text-start mb-3">
+                      <label for="pomo-option" class="my-1 fw-bold">
+                        Pomodoro Duration:
+                      </label>
+                      <input type="number" class="form-control" id="pomo-option" aria-describedby="pomodoro" placeholder="1 - 60 in minutes">
+                    </div>
+
+                    <div class="form-group text-start mb-3">
+                      <label for="short-option" class="my-1 fw-bold">
+                        Short Break:
+                      </label>
+                      <input type="number" class="form-control" id="short-option" placeholder="5 minutes">
+                    </div>
+                    <div class="form-group text-start mb-3">
+                        <label for="long-option" class="my-1 fw-bold">
+                            Long Break:
+                        </label>
+                        <input type="number" class="form-control" id="long-option" placeholder="10 minutes">
+                    </div>
+                    
+                    <p class="my-1 fw-bold text-start">
+                        Theme & Sound:
+                    </p>
+                    <div class="input-group mb-3">
+                        <span class="input-group-text">
+                            <i class="bi bi-image"></i>
+                        </span>
+                        <input type="url" class="form-control" id="image-background" placeholder="image link">
+                        <span class="input-group-text">
+                            <i class="bi bi-music-note-beamed"></i>
+                        </span>
+                        <input type="url" class="form-control" id="alarm-sound" placeholder="sound link">
+                      </div>
+ 
+                    <button id="save-btn" type="button" class="btn btn-light fw-bold my-3">
+                        Save
+                    </button>
+                </form>  
+            </div>
+        </div>
+    </div>
+</body>
+<script src="options.js"></script>
+</html>
