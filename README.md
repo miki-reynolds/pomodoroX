@@ -29,7 +29,7 @@ With the incorporation of the <a href="https://en.wikipedia.org/wiki/Pomodoro_Te
 		        <img src="https://img.shields.io/badge/-Repo-000?style=for-the-badge&logo=Github&logoColor=white" />
 	        </a>
 	        <a href="hhttps://chrome.google.com/webstore/category/extensions" target="_blank">
-    		    <img src="https://img.shields.io/badge/-Website-fff?style=for-the-badge&logo=Wordpress&logoColor=black" />
+    		    <img src="https://img.shields.io/badge/-Store-fff?style=for-the-badge&logo=Wordpress&logoColor=black" />
   	      </a>
       </p>
       <p align="center"><strong>JavaScript, HTML, CSS, Chrome Extension API</strong></p>
