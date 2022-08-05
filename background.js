@@ -86,3 +86,40 @@ chrome.storage.local.get(["pomoIsRunning", "pomoTimer", "pomoOption", "shortIsRu
     })
 })
 
+
+
+function playSound() {
+    let url = chrome.runtime.getURL('/options/audio.html')
+
+    // set this string dynamically in your code, this is just an example
+    // this will play success.wav at half the volume and close the popup after a second
+    chrome.storage.local.get(["alarmSound"], (res) => {
+        const sounds = document.querySelectorAll(".sound")
+        if (res.alarmSound !== "/media/meow.mp3") {
+            id = res.alarmSound.slice(32, -17)
+            url += `?volume=0.5&src=https://docs.google.com/uc?export=download&id=${id}&length=1000`
+            chrome.windows.create({
+                type: 'popup',
+                focused: false,
+                top: 1,
+                left: 1,
+                height: 1,
+                width: 1,
+                url,
+            })
+        }
+        else {
+            res.alarmSound = "/media/meow.mp3"
+            url += `?volume=0.5&src=${res.alarmSound}&length=1000`
+            chrome.windows.create({
+                type: 'popup',
+                focused: false,
+                top: 1,
+                left: 1,
+                height: 1,
+                width: 1,
+                url,
+            })
+        }
+    })
+}

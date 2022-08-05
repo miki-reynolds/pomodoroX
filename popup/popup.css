@@ -5,6 +5,5 @@
 body {
     width: 370px;
     height: 370px;
-    /* background-image: url("/media/shoto.jpg"); */
-    background-size: 370px 400px;
+    background-size:cover;
 }
