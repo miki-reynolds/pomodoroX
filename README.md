@@ -28,7 +28,7 @@ With the incorporation of the <a href="https://en.wikipedia.org/wiki/Pomodoro_Te
           <a href="https://github.com/miki-reynolds/pomodoroX" target="_blank">
 		        <img src="https://img.shields.io/badge/-Repo-000?style=for-the-badge&logo=Github&logoColor=white" />
 	        </a>
-	        <a href="hhttps://chrome.google.com/webstore/category/extensions" target="_blank">
+	        <a href="https://chrome.google.com/webstore/category/extensions" target="_blank">
     		    <img src="https://img.shields.io/badge/-Store-fff?style=for-the-badge&logo=Wordpress&logoColor=black" />
   	      </a>
       </p>
