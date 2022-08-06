@@ -61,7 +61,7 @@ With the incorporation of the <a href="https://en.wikipedia.org/wiki/Pomodoro_Te
 
 ### ≧❀‿❀≦ Inspiration & Design:
 _A brief summary_ <br />
-This extension idea came to me around the time when I incorporated Notion into my time management and organization to better assist me with both full-time job, CS school and programming in my free time.
+This extension idea came to me around the time when I incorporated Notion into my time management and organization to better assist me with both full-time job, Computer Science Research and developing passion projects in my free time.
 Initially, I used an embedded Notion widget to track my time usage, which worked for a short period of time 
 before I became more frustrated with the fact that I had to switched back and forth between pages to see the remaining time for a task.
 <br /><br />
@@ -69,7 +69,8 @@ This frustration along with a lack of personalization options has inspired me to
 The ability to customize plays a pivotal role in motivating users, including me, and encouraging the frequent usage of the application.
 I decided to go with Chrome Extension as it allows synchronicity no matter what website users are on, they can always see my timer easily!
 <br /> <br />
-As introduced in my README, I'm a cuteness lover and a manga-and-anime fan, so the default design and icon of the application are inspired by the character named
-Shoto in <a href="https://en.wikipedia.org/wiki/My_Hero_Academia">Boku No Hero Academia</a>.
+As introduced in my README, I'm a cuteness lover and a manga-and-anime fan, so the default design and icon of the application are inspired by the character named <b>Shoto</b> in 
+<a href="https://en.wikipedia.org/wiki/My_Hero_Academia">Boku No Hero Academia</a>.
 Shoto has both "fire and ice" elements within himself 
-just as Pomodoro has the <b>cool-down</b> periods (long breaks), <b>transitional</b> periods (short breaks) and <b>fire</b> periods (pomodoro main chunks, usually 25 minutes).
+just as Pomodoro has the <b>cool-down</b> periods (long breaks), <b>transitional</b> periods (short breaks) 
+and <b>fire</b> periods (pomodoro main chunks, usually 25 minutes).
